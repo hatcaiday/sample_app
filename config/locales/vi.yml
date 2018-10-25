@@ -1,0 +1,5 @@
+vi:
+  static_pages:
+    home:
+      title: "Ví dụ ứng dụng Ruby on Rails"
+      description: "Đây là trang chủ để học Ruby on Rails"

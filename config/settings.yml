@@ -1,0 +1,8 @@
+size: 1
+server: google.com
+link_rails:
+  link_rails_home: "http://rubyonrails.org/"
+  link_rails_book: "http://www.railstutorial.org/book"
+  link_rails_screencasts: "http://screencasts.railstutorial.org/"
+  link_rails_contact: "http://www.railstutorial.org/contact"
+  link_rails_help: http://www.railstutorial.org/help"

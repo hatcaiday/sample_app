@@ -1,9 +1,8 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import 'color.scss';
 
 /* mixins, variables, etc. */
-
-$gray-medium-light: #eaeaea;
 
 /* universal */
 
@@ -60,13 +59,13 @@ p {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
   }
 }
