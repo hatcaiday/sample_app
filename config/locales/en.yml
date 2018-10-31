@@ -1,4 +1,9 @@
 en:
+  layouts:
+    lo_go: "Sample App"
+    home: "Home"
+    help: "Help"
+    log_in: "Log in"
   static_pages:
     home:
       title: "Sample App Ruby on Rails"
@@ -27,6 +32,7 @@ en:
       teach_web: "to teach web development with "
   users:
     new:
+      sign_up_title: "Sign up"
       sign_up_des: "This will be a signup page for new users."
   english: "English"
   vietnamese: "Vietnamese"

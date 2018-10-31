@@ -1,8 +1,13 @@
 vi:
+  layouts:
+    lo_go: "Vi du"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    log_in: "Đăng nhap"
   static_pages:
     home:
       title: "Ví dụ ứng dụng Ruby on Rails"
-      description: "TĐây là trang chủ để học Ruby on Rails."
+      description: "Đây là trang chủ để học Ruby on Rails."
       sign_up: "Tạo tài khoản mới"
     help:
       help_section: "Phần trợ giúp Hướng dẫn Rails"
@@ -15,7 +20,7 @@ vi:
     about:
       about_title: "Gioi thieu"
     variable:
-      contact: "Lien he"
+      contact: "Liên hệ"
       about: "Gioi thieu"
       news: "Tin Tuc"
       page: "Trang"
@@ -25,6 +30,7 @@ vi:
       teach_web: "để dạy phát triển web với"
   users:
     new:
+      sign_up_title: "Đăng ký"
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
