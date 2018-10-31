@@ -8,17 +8,16 @@ en:
     help: "Rails Tutorial help section"
     get_help: "Get help on the Ruby on Rails Tutorial at the"
     get_to_help: "To get help on this sample app, see the"
-
+    sign_up_des: "This will be a signup page for new users.""
   variable:
     contact: "Contact"
     about: "About"
     news: "News"
     page: "Page"
     sample: "sample"
-
-
   conjuntion:
     the: "The"
     and: "and"
     teach_web: "to teach web development with"
-
+  english: "English"
+  vietnamese: "Vietnamese"
