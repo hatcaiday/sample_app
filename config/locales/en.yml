@@ -6,26 +6,27 @@ en:
       sign_up: "Sign up now"
     help:
       help_section: "Rails Tutorial help section"
-      get_help: "Get help on the Ruby on Rails Tutorial at the"
-      get_to_help: "To get help on this sample app, see the"
+      get_help: "Get help on the Ruby on Rails Tutorial at the "
+      get_to_help: "To get help on this sample app, see the "
+      book: "Book"
     ruby_on_rails: "Ruby on Rails Tutorial"
     contact:
       contact_title: "Contact"
-      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the "
     about:
       about_title: "About"
+    variable:
+      contact: "Contact"
+      about: "About"
+      news: "News"
+      page: "Page"
+      sample: "sample"
+    conjuntion:
+      the: "The"
+      and: "and"
+      teach_web: "to teach web development with "
   users:
     new:
       sign_up_des: "This will be a signup page for new users."
-  variable:
-    contact: "Contact"
-    about: "About"
-    news: "News"
-    page: "Page"
-    sample: "sample"
-  conjuntion:
-    the: "The"
-    and: "and"
-    teach_web: "to teach web development with"
   english: "English"
   vietnamese: "Vietnamese"

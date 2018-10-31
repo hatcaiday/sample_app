@@ -14,17 +14,17 @@ vi:
       contact_ruby: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
     about:
       about_title: "Gioi thieu"
+    variable:
+      contact: "Lien he"
+      about: "Gioi thieu"
+      news: "Tin Tuc"
+      page: "Trang"
+      sample: "vi du"
+    conjuntion:
+      and: "va"
+      teach_web: "để dạy phát triển web với"
   users:
     new:
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
-  variable:
-    contact: "Lien he"
-    about: "Gioi thieu"
-    news: "Tin Tuc"
-    page: "Trang"
-    sample: "vi du"
-  conjuntion:
-    and: "va"
-    teach_web: "để dạy phát triển web với"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
