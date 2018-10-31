@@ -5,4 +5,8 @@ link_rails:
   link_rails_book: "http://www.railstutorial.org/book"
   link_rails_screencasts: "http://screencasts.railstutorial.org/"
   link_rails_contact: "http://www.railstutorial.org/contact"
-  link_rails_help: http://www.railstutorial.org/help"
+  link_rails_help: "http://www.railstutorial.org/help"
+  link_rails_news: "http://news.railstutorial.org/"
+
+link_other:
+  link_author: "http://www.michaelhartl.com/"

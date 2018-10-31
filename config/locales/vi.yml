@@ -3,3 +3,12 @@ vi:
     home:
       title: "Ví dụ ứng dụng Ruby on Rails"
       description: "Đây là trang chủ để học Ruby on Rails"
+      sign_up: "tạo tài khoản mới"
+      ruby_on_rails: "Hướng dẫn Ruby on Rails"
+    
+  variable:
+    contact: "Tac gia"
+    about: "Gioi thieu"
+    news: "Tin tuc"
+
+

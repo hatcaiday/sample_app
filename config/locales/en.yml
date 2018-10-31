@@ -2,4 +2,23 @@ en:
   static_pages:
     home:
       title: "Sample App Ruby on Rails"
-      description: "This is page to learn Ruby on Rails"
+      description: "This is the sample application for the tutorial."
+      sign_up: "Sign up now"
+    ruby_on_rails: "Ruby on Rails Tutorial"
+    help: "Rails Tutorial help section"
+    get_help: "Get help on the Ruby on Rails Tutorial at the"
+    get_to_help: "To get help on this sample app, see the"
+
+  variable:
+    contact: "Contact"
+    about: "About"
+    news: "News"
+    page: "Page"
+    sample: "sample"
+
+
+  conjuntion:
+    the: "The"
+    and: "and"
+    teach_web: "to teach web development with"
+

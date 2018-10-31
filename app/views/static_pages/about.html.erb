@@ -1,12 +1,9 @@
 <% provide(:title, "About") %>
 <h1>About</h1>
 <p>
-  The <%= link_to Settings.link_rails.link_rails_home %>
-  is a
-  <%= link_to Settings.link_rails.link_rails_book %>
-  and
-  <%= link_to Settings.link_rails.link_rails_screencasts %>
-  to teach web development with
-  <%= link_to Settings.link_rails.link_rails_home %>
-  This is the sample application for the tutorial.
+  <%= t "the" %><%= link_to Settings.link_rails.link_rails_home %>
+  <%= t "is a" %><%= link_to Settings.link_rails.link_rails_book %>
+  <%= t "and" %><%= link_to Settings.link_rails.link_rails_screencasts %>
+  <%= t "teach_web" %><%= link_to Settings.link_rails.link_rails_home %>
+  <%= t "description" %>
 </p>
