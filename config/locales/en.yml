@@ -4,11 +4,19 @@ en:
       title: "Sample App Ruby on Rails"
       description: "This is the sample application for the tutorial."
       sign_up: "Sign up now"
+    help:
+      help_section: "Rails Tutorial help section"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      get_to_help: "To get help on this sample app, see the"
     ruby_on_rails: "Ruby on Rails Tutorial"
-    help: "Rails Tutorial help section"
-    get_help: "Get help on the Ruby on Rails Tutorial at the"
-    get_to_help: "To get help on this sample app, see the"
-    sign_up_des: "This will be a signup page for new users.""
+    contact:
+      contact_title: "Contact"
+      contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the"
+    about:
+      about_title: "About"
+  users:
+    new:
+      sign_up_des: "This will be a signup page for new users."
   variable:
     contact: "Contact"
     about: "About"

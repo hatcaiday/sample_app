@@ -2,13 +2,29 @@ vi:
   static_pages:
     home:
       title: "Ví dụ ứng dụng Ruby on Rails"
-      description: "Đây là trang chủ để học Ruby on Rails"
-      sign_up: "tạo tài khoản mới"
-      ruby_on_rails: "Hướng dẫn Ruby on Rails"
-    
+      description: "TĐây là trang chủ để học Ruby on Rails."
+      sign_up: "Tạo tài khoản mới"
+    help:
+      help_section: "Phần trợ giúp Hướng dẫn Rails"
+      get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      get_to_help: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+    ruby_on_rails: "Hướng dẫn Ruby on Rails"
+    contact:
+      contact_title: "Liên hệ"
+      contact_ruby: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+    about:
+      about_title: "Gioi thieu"
+  users:
+    new:
+      sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
   variable:
-    contact: "Tac gia"
+    contact: "Lien he"
     about: "Gioi thieu"
-    news: "Tin tuc"
+    news: "Tin Tuc"
+    page: "Trang"
+    sample: "vi du"
+  conjuntion:
+    and: "va"
+    teach_web: "để dạy phát triển web với"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
