@@ -4,6 +4,10 @@ vi:
     home: "Trang chủ"
     help: "Trợ giúp"
     log_in: "Đăng nhap"
+    the: ""
+    and: "va"
+    by: "boi "
+    author: "Michart"
   static_pages:
     home:
       title: "Ví dụ ứng dụng Ruby on Rails"
