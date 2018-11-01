@@ -9,3 +9,7 @@ link_rails:
   link_rails_news: "http://news.railstutorial.org/"
 link_other:
   link_author: "http://www.michaelhartl.com/"
+value:
+  maximum_name: "50"
+  maximum_email: "255"
+  maximum_pass: "6"
