@@ -1,0 +1,40 @@
+vi:
+  layouts:
+    lo_go: "Vi du"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    log_in: "Đăng nhap"
+    the: ""
+    and: "va"
+    by: "boi "
+    author: "Michart"
+  static_pages:
+    home:
+      title: "Ví dụ ứng dụng Ruby on Rails"
+      description: "Đây là trang chủ để học Ruby on Rails."
+      sign_up: "Tạo tài khoản mới"
+    help:
+      help_section: "Phần trợ giúp Hướng dẫn Rails"
+      get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      get_to_help: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+    ruby_on_rails: "Hướng dẫn Ruby on Rails"
+    contact:
+      contact_title: "Liên hệ"
+      contact_ruby: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
+    about:
+      about_title: "Gioi thieu"
+    variable:
+      contact: "Liên hệ"
+      about: "Gioi thieu"
+      news: "Tin Tuc"
+      page: "Trang"
+      sample: "vi du"
+    conjuntion:
+      and: "va"
+      teach_web: "để dạy phát triển web với"
+  users:
+    new:
+      sign_up_title: "Đăng ký"
+      sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
+  english: "Tieng Anh"
+  vietnamese: "Tieng Viet"

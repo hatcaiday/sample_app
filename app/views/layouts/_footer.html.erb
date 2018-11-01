@@ -1,0 +1,20 @@
+<footer class="footer">
+  <small>
+    <%= t "layouts.the" %><%= link_to t("static_pages.ruby_on_rails"), Settings.link_rails.link_rails_home %>
+    <%= t "layouts.by" %><%= link_to t("layouts.author"), Settings.link_other.link_author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("variable.about"), about_path %></li>
+      <li><%= link_to t("variable.contact"), contact_path %></li>
+      <li><%= link_to t("variable.news"), Settings.link_rails.link_rails_news %></li>
+    </ul>
+
+  </nav>
+  <nav>
+    <ul>
+      <li><%= link_to t("english"), locale:"en" %></li>
+      <li><%= link_to t("vietnamese"), locale:"vi" %></li>
+    </ul>
+  </nav>
+</footer>
