@@ -35,8 +35,11 @@ en:
       and: "and"
       teach_web: "to teach web development with "
   users:
+    welcome_to: "Welcome to the Sample App!"
     new:
       sign_up_title: "Sign up"
       sign_up_des: "This will be a signup page for new users."
+  share:
+    the_form_contains: "The form contains"
   english: "English"
   vietnamese: "Vietnamese"

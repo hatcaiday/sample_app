@@ -33,8 +33,11 @@ vi:
       and: "va"
       teach_web: "để dạy phát triển web với"
   users:
+    welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu!"
     new:
       sign_up_title: "Đăng ký"
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
+  share:
+    the_form_contains: "Biểu mẫu có chứa"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"

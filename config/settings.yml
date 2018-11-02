@@ -10,6 +10,7 @@ link_rails:
 link_other:
   link_author: "http://www.michaelhartl.com/"
 value:
+  user_size: "80"
   maximum_name: "50"
   maximum_email: "255"
   maximum_pass: "6"
