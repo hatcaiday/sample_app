@@ -1,16 +1,37 @@
 vi:
+  controllers:
+    concerns:
+      sessions_controller:
+        invalid_mail_pass: "email/password khong dung"
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
-    lo_go: "Vi du"
-    home: "Trang chủ"
-    help: "Trợ giúp"
-    log_in: "Đăng nhap"
-    the: ""
-    and: "va"
-    by: "boi "
-    author: "Michart"
+    header:
+      lo_go: "Vi du"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhap"
+      log_out: "Đăng xuat"
+      the: ""
+      and: "va"
+      profile: "Profile"
+      setting: "Cai dat"
+      user: "người dung"
+      account: "tai khoản"
+    footer:
+      the: ""
+      by: "boi "
+      author: "Michart"
+    variable:
+      contact: "Liên hệ"
+      about: "Gioi thieu"
+      news: "Tin Tuc"
+      page: "Trang"
+      sample: "vi du"
   static_pages:
     home:
-      title: "Ví dụ ứng dụng Ruby on Rails"
+      base_title: "Ví dụ ứng dụng Ruby on Rails"
       description: "Đây là trang chủ để học Ruby on Rails."
       sign_up: "Tạo tài khoản mới"
     help:
@@ -23,12 +44,6 @@ vi:
       contact_ruby: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
     about:
       about_title: "Gioi thieu"
-    variable:
-      contact: "Liên hệ"
-      about: "Gioi thieu"
-      news: "Tin Tuc"
-      page: "Trang"
-      sample: "vi du"
     conjuntion:
       and: "va"
       teach_web: "để dạy phát triển web với"
@@ -40,5 +55,9 @@ vi:
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
   share:
     the_form_contains: "Biểu mẫu có chứa"
+  sessions:
+    new:
+      login_title: "Dang nhap"
+      new_user: "Ban la người dung moi?"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
