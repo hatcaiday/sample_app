@@ -34,6 +34,7 @@ vi:
       teach_web: "để dạy phát triển web với"
   users:
     welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu!"
+    invalid: "người dung khong dung!"
     new:
       sign_up_title: "Đăng ký"
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."

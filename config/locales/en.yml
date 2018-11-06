@@ -36,6 +36,7 @@ en:
       teach_web: "to teach web development with "
   users:
     welcome_to: "Welcome to the Sample App!"
+    invalid: "User invalid!"
     new:
       sign_up_title: "Sign up"
       sign_up_des: "This will be a signup page for new users."

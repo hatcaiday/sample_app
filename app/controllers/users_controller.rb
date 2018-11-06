@@ -1,6 +1,9 @@
 class UsersController < ApplicationController
   def show
     @user = User.find_by id: params[:id]
+    return if @user
+    flash[:danger] = t ".users.invalid"
+    redirect_to root_path
   end
   
   def new
@@ -10,7 +13,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      flash[:success] = t".users.welcome_to"
+      flash[:success] = t ".users.welcome_to"
+      redirect_to @user
     else
       render :new
     end
@@ -20,6 +24,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit :name, :email, :password, 
-    :password_confirmation
+      :password_confirmation
     end
 end
