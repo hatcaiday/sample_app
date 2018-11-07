@@ -1,18 +1,46 @@
 en:
+  controllers:
+    concerns:
+      sessions_controller:
+        invalid_mail_pass: "Invalid email/password combination"
+  helpers:
+    application_helper:
+      base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
-    lo_go: "Sample App"
-    home: "Home"
-    help: "Help"
-    log_in: "Log in"
-    the: "The "
-    and: "and"
-    by: "by "
-    author: "Michart"
+    header:
+      sample_app: "Sample App"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+      log_out: "Log out"
+      the: "The "
+      and: "and"
+      profile: "Profile"
+      setting: "Settings"
+      user: "Users"
+      account: "Account"
+    footer:
+      the: "The "
+      by: "by "
+      author: "Michart"
+    variable:
+      contact: "Contact"
+      about: "About"
+      news: "News"
+      page: "Page"
+      sample: "sample"
+  sessions:
+    new:
+      login_title: "Log in"
+      new_user: "New user? "
+      sign_up: "Sign up now!"
+  shared:
+    the_form_contain: "The form contains"
   static_pages:
     home:
-      title: "Sample App Ruby on Rails"
+      base_title: "Ruby on Rails Tutorial Sample App"
       description: "This is the sample application for the tutorial."
-      sign_up: "Sign up now"
+      sign_up: "Sign up now!"
     help:
       help_section: "Rails Tutorial help section"
       get_help: "Get help on the Ruby on Rails Tutorial at the "
@@ -24,12 +52,6 @@ en:
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the "
     about:
       about_title: "About"
-    variable:
-      contact: "Contact"
-      about: "About"
-      news: "News"
-      page: "Page"
-      sample: "sample"
     conjuntion:
       the: "The "
       and: "and"
@@ -40,7 +62,5 @@ en:
     new:
       sign_up_title: "Sign up"
       sign_up_des: "This will be a signup page for new users."
-  share:
-    the_form_contains: "The form contains"
   english: "English"
   vietnamese: "Vietnamese"
