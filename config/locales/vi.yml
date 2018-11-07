@@ -29,6 +29,12 @@ vi:
       news: "Tin Tuc"
       page: "Trang"
       sample: "vi du"
+  sessions:
+    new:
+      login_title: "Dang nhap"
+      new_user: "Ban la người dung moi?"
+      sign_up: "Dang ký ngay!"
+      remember_me: "Nho toi o may tinh nay"
   static_pages:
     home:
       base_title: "Ví dụ ứng dụng Ruby on Rails"
@@ -38,6 +44,7 @@ vi:
       help_section: "Phần trợ giúp Hướng dẫn Rails"
       get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       get_to_help: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
+      book: ""
     ruby_on_rails: "Hướng dẫn Ruby on Rails"
     contact:
       contact_title: "Liên hệ"
@@ -55,9 +62,5 @@ vi:
       sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
   share:
     the_form_contains: "Biểu mẫu có chứa"
-  sessions:
-    new:
-      login_title: "Dang nhap"
-      new_user: "Ban la người dung moi?"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"

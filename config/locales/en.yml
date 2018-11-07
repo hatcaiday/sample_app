@@ -34,6 +34,7 @@ en:
       login_title: "Log in"
       new_user: "New user? "
       sign_up: "Sign up now!"
+      remember_me: "Remember me on this computer"
   shared:
     the_form_contain: "The form contains"
   static_pages:
@@ -42,6 +43,7 @@ en:
       description: "This is the sample application for the tutorial."
       sign_up: "Sign up now!"
     help:
+      help_title: "Help"
       help_section: "Rails Tutorial help section"
       get_help: "Get help on the Ruby on Rails Tutorial at the "
       get_to_help: "To get help on this sample app, see the "
