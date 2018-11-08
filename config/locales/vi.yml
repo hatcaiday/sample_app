@@ -3,12 +3,16 @@ vi:
     concerns:
       sessions_controller:
         invalid_mail_pass: "email/password khong dung"
+      users_controller:
+        update_profile: "Cap nhat người dung"
+        plz_login: "Vui long dang nhap."
+        user_delete: "Xoa nguoi dung"
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
   layouts:
     header:
-      lo_go: "Vi du"
+      lo_go: "Ví du"
       home: "Trang chủ"
       help: "Trợ giúp"
       log_in: "Đăng nhap"
@@ -35,6 +39,30 @@ vi:
       new_user: "Ban la người dung moi?"
       sign_up: "Dang ký ngay!"
       remember_me: "Nho toi o may tinh nay"
+  share:
+    the_form_contains: "Biểu mẫu có chứa"
+  users:
+    welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu!"
+    invalid: "người dung khong dung!"
+    new:
+      sign_up_title: "Đăng ký"
+      sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
+      create_acc: "Tạo tài khoản mới"
+    edit:
+      edit_title: "Sua người dung"
+      update_profile: "Cap nhat người dung"
+      change: "Thay doi"
+      save_change: "Luu thay doi"
+    index:
+      all_users: "Tat ca nguoi dung"
+    user:
+      delete: "xoa"
+      you_sure: "Ban chac chu?"
+    form:
+      name: "Ten"
+      email: "Email"
+      password: "Mat khau"
+      password_conf: "Nhap lai mat khaus"
   static_pages:
     home:
       base_title: "Ví dụ ứng dụng Ruby on Rails"
@@ -54,13 +82,5 @@ vi:
     conjuntion:
       and: "va"
       teach_web: "để dạy phát triển web với"
-  users:
-    welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu!"
-    invalid: "người dung khong dung!"
-    new:
-      sign_up_title: "Đăng ký"
-      sign_up_des: "Đây sẽ là trang đăng ký cho người dùng mới."
-  share:
-    the_form_contains: "Biểu mẫu có chứa"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"

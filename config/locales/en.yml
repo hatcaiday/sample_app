@@ -3,6 +3,12 @@ en:
     concerns:
       sessions_controller:
         invalid_mail_pass: "Invalid email/password combination"
+      users_controller:
+        update_profile: "Profile updated"
+        plz_login: "Please log in."
+        user_delete: "User deleted"
+        no_such: "No such user"
+        no_delete: "Delete user error."
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -37,6 +43,28 @@ en:
       remember_me: "Remember me on this computer"
   shared:
     the_form_contain: "The form contains"
+  users:
+    welcome_to: "Welcome to the Sample App!"
+    invalid: "User invalid!"
+    new:
+      sign_up_title: "Sign up"
+      sign_up_des: "This will be a signup page for new users."
+      create_acc: "Create my account"
+    edit:
+      edit_title: "Edit user"
+      update_profile: "Update your profile"
+      change: "Change"
+      save_change: "Save changes"
+    index:
+      all_users: "All users"
+    user:
+      delete: "delete"
+      you_sure: "You sure?"
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_conf: "Password confimation"
   static_pages:
     home:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -58,11 +86,5 @@ en:
       the: "The "
       and: "and"
       teach_web: "to teach web development with "
-  users:
-    welcome_to: "Welcome to the Sample App!"
-    invalid: "User invalid!"
-    new:
-      sign_up_title: "Sign up"
-      sign_up_des: "This will be a signup page for new users."
   english: "English"
   vietnamese: "Vietnamese"
