@@ -3,12 +3,20 @@ en:
     concerns:
       sessions_controller:
         invalid_mail_pass: "Invalid email/password combination"
+        acc_not_activ: "Account not activated. Check your email for the activation link."
       users_controller:
         update_profile: "Profile updated"
         plz_login: "Please log in."
         user_delete: "User deleted"
         no_such: "No such user"
         no_delete: "Delete user error."
+        check_email: "Please check your email to activate your account."
+      account_activations_controller:
+        acc_activate: "Account activated!"
+        invalid_link: "Invalid activation link"
+  mailers:
+    user_mailer:
+      acc_acti: "Account Activation"
   helpers:
     application_helper:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -65,6 +73,14 @@ en:
       email: "Email"
       password: "Password"
       password_conf: "Password confimation"
+  user_mailer:
+    account:
+      hi: "Hi"
+      welcome_to_clink_on_acc: "Welcome to the Sample App! Click on the link below to activate your account:"
+      sample_app: "Sample App"
+      activate: "Activate"
+    password:
+      find_me: "find me in app/views/user_mailer/password_reset.html.erb"
   static_pages:
     home:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -79,6 +95,7 @@ en:
     ruby_on_rails: "Ruby on Rails Tutorial"
     contact:
       contact_title: "Contact"
+      contact_page: "Contact Page"
       contact_ruby: "Contact the Ruby on Rails Tutorial about the sample app at the "
     about:
       about_title: "About"
