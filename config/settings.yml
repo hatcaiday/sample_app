@@ -15,4 +15,5 @@ value:
   user_page: 10
   maximum_name: 50
   maximum_email: 255
-  maximum_pass: 6  
+  maximum_pass: 6
+  min_hours: 2
