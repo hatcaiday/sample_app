@@ -21,6 +21,9 @@ en:
         has_been_reset: "Password has been reset."
         has_expired: "Password reset has expired."
         invalid: "Invalid"
+      micropost_controller:
+        micropost_create: "Micropost created!"
+        micropost_delete: "Micropost deleted"
   mailers:
     user_mailer:
       acc_acti: "Account Activation"
@@ -51,6 +54,11 @@ en:
       news: "News"
       page: "Page"
       sample: "sample"
+  micropost:
+    posted: "Posted"
+    delete: "delete"
+    ago: "ago."
+    you_sure: "You sure?"
   password_resets:
     new:
       pass_reset_title: "Forgot password"
@@ -72,6 +80,11 @@ en:
       remember_me: "Remember me on this computer"
   shared:
     the_form_contain: "The form contains"
+    view_file: "view my profile"
+    micropost: "micropost"
+    compose: "Compose new micropost..."
+    post: "Post"
+    max_file: "Maximum file size is 5MB. Please choose a smaller file."
   users:
     welcome_to: "Welcome to the Sample App!"
     invalid: "User invalid!"
@@ -94,6 +107,8 @@ en:
       email: "Email"
       password: "Password"
       password_conf: "Password confimation"
+    show:
+      micropost: "Microposts"
   user_mailer:
     account:
       hi: "Hi"
@@ -111,6 +126,7 @@ en:
       base_title: "Ruby on Rails Tutorial Sample App"
       description: "This is the sample application for the tutorial."
       sign_up: "Sign up now!"
+      micropost_feed: "Micropost Feed"
     help:
       help_title: "Help"
       help_section: "Rails Tutorial help section"
@@ -128,5 +144,9 @@ en:
       the: "The "
       and: "and"
       teach_web: "to teach web development with "
+  model:
+    concerns:
+      user:
+        user_id: "user_id = ?"
   english: "English"
   vietnamese: "Vietnamese"

@@ -17,3 +17,7 @@ value:
   maximum_email: 255
   maximum_pass: 6
   min_hours: 2
+  maximum_micropost: 140
+  micropost_user: 50
+  microposts_size: 1
+  size_img: 400
