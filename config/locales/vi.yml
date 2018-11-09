@@ -21,6 +21,8 @@ vi:
         has_been_reset: "Mật khẩu đã được đặt lại."
         has_expired: "Đặt lại mật khẩu đã hết hạn."
         invalid: "Không hợp lệ"
+      micropost_controller:
+        micropost_create: "Micropost đã được tạo!"
   mailers:
     user_mailer:
       acc_acti: "Kích hoạt tài khoản"
@@ -51,6 +53,8 @@ vi:
       news: "Tin tức"
       page: "Trang"
       sample: "mẫu"
+  microposts:
+    posted: "Đã đăng"
   password_resets:
     new:
       pass_reset_title: "Quên mật khẩu"
@@ -72,6 +76,10 @@ vi:
       remember_me: "Hãy nhớ tôi trên máy tính này"
   share:
     the_form_contains: "Biểu mẫu có chứa"
+    view_file: "xem tiểu sử của tôi"
+    micropost: "micropost"
+    compose: "Soạn micropost mới ..."
+    post: "Bài đăng"
   users:
     welcome_to: "Chào mừng bạn đến với Ứng dụng mẫu!"
     invalid: "người dung khong dung!"
@@ -111,6 +119,7 @@ vi:
       base_title: "Ví dụ ứng dụng Ruby on Rails"
       description: "Đây là trang chủ để học Ruby on Rails."
       sign_up: "Tạo tài khoản mới"
+      micropost_feed: "Nguồn cấp dữ liệu Micropost"
     help:
       help_title: "Trợ giúp"
       help_section: "Phần trợ giúp Hướng dẫn Rails"
@@ -128,5 +137,9 @@ vi:
       the: ""
       and: "va "
       teach_web: "để dạy phát triển web với "
+  model:
+    concerns:
+      user_id: "user_id = ?"
+      less_than: "should be less than 5MB"
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
