@@ -1,8 +1,8 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: %i(new create show)
+  before_action :logged_in_user, only: %i(index create edit update)
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: %i(destroy)
-  before_action :load_user, except: %i(new index destroy)
+  before_action :load_user, except: %i(new create index)
 
   def index
     @users = User.page(params[:page]).per Settings.value.user_page
@@ -17,9 +17,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t ".users.welcome_to"
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t ".check_email"
+      redirect_to root_url
     else
       render :new
     end

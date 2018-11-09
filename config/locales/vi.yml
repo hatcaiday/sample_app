@@ -3,13 +3,23 @@ vi:
     concerns:
       sessions_controller:
         invalid_mail_pass: "email/password khong dung"
+        acc_not_activ: "Tài khoản không được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt."
       users_controller:
         update_profile: "Cap nhat người dung"
         plz_login: "Vui long dang nhap."
         user_delete: "Xoa nguoi dung"
+        no_such: "Không có người dùng như vậy"
+        no_delete: "Xóa người dùng lỗi."
+        check_email: "Kiểm tra email của bạn để biết liên kết kích hoạt."
+      account_activations_controller:
+        acc_activate: "Đã kích hoạt tài khoản!"
+        invalid_link: "Liên kết kích hoạt không hợp lệ"
+  mailers:
+    user_mailer:
+      acc_acti: "Kích hoạt tài khoản"
   helpers:
     application_helper:
-      base_title: "Ruby on Rails Tutorial Sample App"
+      base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
   layouts:
     header:
       lo_go: "Ví du"
@@ -19,7 +29,7 @@ vi:
       log_out: "Đăng xuat"
       the: ""
       and: "va"
-      profile: "Profile"
+      profile: "Hồ sơ"
       setting: "Cai dat"
       user: "người dung"
       account: "tai khoản"
@@ -38,7 +48,7 @@ vi:
       login_title: "Dang nhap"
       new_user: "Ban la người dung moi?"
       sign_up: "Dang ký ngay!"
-      remember_me: "Nho toi o may tinh nay"
+      remember_me: "Hãy nhớ tôi trên máy tính này"
   share:
     the_form_contains: "Biểu mẫu có chứa"
   users:
@@ -63,12 +73,21 @@ vi:
       email: "Email"
       password: "Mat khau"
       password_conf: "Nhap lai mat khaus"
+  user_mailer:
+    account:
+      hi: "Xin chào"
+      welcome_to_clink_on_acc: "Chào mừng bạn đến với Ứng dụng mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn: "
+      sample_app: "Ứng dụng mẫu"
+      activate: "Kích hoạt"
+    password:
+      find_me: "tìm tôi ở app/views/user_mailer/password_reset.html.erb"
   static_pages:
     home:
       base_title: "Ví dụ ứng dụng Ruby on Rails"
       description: "Đây là trang chủ để học Ruby on Rails."
       sign_up: "Tạo tài khoản mới"
     help:
+      help_title: "Trợ giúp"
       help_section: "Phần trợ giúp Hướng dẫn Rails"
       get_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
       get_to_help: "Để được trợ giúp về ứng dụng mẫu này, hãy xem"
@@ -76,11 +95,13 @@ vi:
     ruby_on_rails: "Hướng dẫn Ruby on Rails"
     contact:
       contact_title: "Liên hệ"
+      contact_page: "Trang liên lạc"
       contact_ruby: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu tại"
     about:
       about_title: "Gioi thieu"
     conjuntion:
-      and: "va"
-      teach_web: "để dạy phát triển web với"
+      the: ""
+      and: "va "
+      teach_web: "để dạy phát triển web với "
   english: "Tieng Anh"
   vietnamese: "Tieng Viet"
