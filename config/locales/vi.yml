@@ -14,9 +14,17 @@ vi:
       account_activations_controller:
         acc_activate: "Đã kích hoạt tài khoản!"
         invalid_link: "Liên kết kích hoạt không hợp lệ"
+      password_resets_controller:
+        send_with_pass: "Email được gửi với hướng dẫn đặt lại mật khẩu"
+        email_not_found: "Không tìm thấy địa chỉ email"
+        empty: "không được để trống"
+        has_been_reset: "Mật khẩu đã được đặt lại."
+        has_expired: "Đặt lại mật khẩu đã hết hạn."
+        invalid: "Không hợp lệ"
   mailers:
     user_mailer:
       acc_acti: "Kích hoạt tài khoản"
+      pass_reset: "Đặt lại mật khẩu"
   helpers:
     application_helper:
       base_title: "Ứng dụng mẫu hướng dẫn Ruby on Rails"
@@ -25,29 +33,42 @@ vi:
       lo_go: "Ví du"
       home: "Trang chủ"
       help: "Trợ giúp"
-      log_in: "Đăng nhap"
-      log_out: "Đăng xuat"
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
       the: ""
-      and: "va"
+      and: "và"
       profile: "Hồ sơ"
-      setting: "Cai dat"
-      user: "người dung"
-      account: "tai khoản"
+      setting: "Cài đặt"
+      user: "người dùng"
+      account: "Tài khoản"
     footer:
       the: ""
-      by: "boi "
+      by: "bởi "
       author: "Michart"
     variable:
       contact: "Liên hệ"
       about: "Gioi thieu"
-      news: "Tin Tuc"
+      news: "Tin tức"
       page: "Trang"
-      sample: "vi du"
+      sample: "mẫu"
+  password_resets:
+    new:
+      pass_reset_title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    edit:
+      pass_reset_title_edit: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confi: "Xác nhận"
+      updated_pass: "Cập nhật mật khẩu"
   sessions:
     new:
-      login_title: "Dang nhap"
-      new_user: "Ban la người dung moi?"
-      sign_up: "Dang ký ngay!"
+      email: "Email"
+      password: "Mật khẩu"
+      forgot_pass: "(Quên mật khẩu)"
+      login_title: "Đăng nhập"
+      new_user: "Người dùng mới? "
+      sign_up: "Đăng ký ngay!"
       remember_me: "Hãy nhớ tôi trên máy tính này"
   share:
     the_form_contains: "Biểu mẫu có chứa"
@@ -80,7 +101,11 @@ vi:
       sample_app: "Ứng dụng mẫu"
       activate: "Kích hoạt"
     password:
-      find_me: "tìm tôi ở app/views/user_mailer/password_reset.html.erb"
+      password_reset_title: "Đặt lại mật khẩu"
+      reset_pass: "Đặt lại mật khẩu"
+      reset_click_link: "Để đặt lại mật khẩu, hãy nhấp vào liên kết bên dưới:"
+      link_expire: "Liên kết này sẽ hết hạn sau hai giờ nữa."
+      did_not_request: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
   static_pages:
     home:
       base_title: "Ví dụ ứng dụng Ruby on Rails"
